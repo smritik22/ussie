@@ -1,0 +1,94 @@
+
+/*===================== Live Css Changes ======================== */
+.school-profile .profile-body .bottom-profile .school-form .school-body .body-content .upload-mailn .form-group.upload-file-image #imagefile{
+    margin: auto;
+    border: 1px solid #2f99e7;
+    border-radius: 12px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: transparent;
+    position: relative;
+}
+.school-profile .profile-body .bottom-profile .school-form .school-body .body-content .upload-mailn .form-group.upload-file-image #imagefile #remove{
+    position: absolute;
+    right: 0;
+    font-size: 0;
+    padding: 5px;
+    margin: auto;
+    top: -5px;
+}
+.school-profile .profile-body .bottom-profile .school-form .school-body .body-content .upload-mailn .form-group.upload-file-image #imagefile #remove::after{
+    content: '';
+    position: absolute;
+    background: url(https://upskild.vrinsoftinc.com/assets/frontend/images/upload-close.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    background-color: #2f99e7;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 30px;
+}
+.content .right-content .content-body .body-content .body-left .student-table .create-details .form-group .image-data-block .remove-img{
+    margin: auto;
+    position: relative;
+}
+.content .right-content .content-body .body-content .body-left .student-table .create-details .form-group .image-data-block .remove-img a{
+position: absolute;
+    right: 0;
+    font-size: 0;
+    padding: 5px;
+    margin: auto;
+    top: -5px;
+}
+.content .right-content .content-body .body-content .body-left .student-table .create-details .form-group .image-data-block .remove-img a:after{
+    content: '';
+    position: absolute;
+    background: url(https://upskild.vrinsoftinc.com/assets/frontend/images/upload-close.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    background-color: #2f99e7;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 30px;
+}
+.content .right-content .content-body .body-content .modal#createProgram .modal-content.custom-modal-width {
+    width: 500px;
+}
+.content .right-content .content-body .body-content .body-left .student-table .create-details .form-group input.disable-input{
+    padding: 0 10px;
+    background: #efc2c2;
+}
+.content .right-content .content-body .body-content .modal-content.take-action-data {
+    width: 500px;
+}
+.content .right-content .content-body .body-content .modal-content.edit-take-action-data {
+    width: 500px;
+}
+.content .right-content .content-body .body-content .modal-content .modal-body .disabled-input {
+    padding: 0 10px !important;
+    background: #efc2c2;
+}
+.content .right-content .content-body .add-staff-member {
+    width: 500px !important;
+}
+.disabled-input {
+    padding: 0 10px !important;
+    background: #efc2c2;
+
+}
+
+.notification-form .location-width {
+        width: 100%;
+}

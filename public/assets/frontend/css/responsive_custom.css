@@ -1,0 +1,21 @@
+
+
+/* ===== max-width: 640px ======= */
+@media only screen and (max-width: 640px){
+    .school-profile .profile-body .bottom-profile .school-form .school-body .body-content .upload-mailn .form-group.upload-file-image #imagefile {
+        width: 45%;
+    }
+}
+/* ===== max-width: 480px ======= */
+@media only screen and (max-width: 480px){
+    
+    .student-table .create-details .form-group .image-data-block .row.image_row{
+        flex-direction: column-reverse;
+    }
+    .student-table .create-details .form-group .image-data-block .row.image_row .image-choose-link{
+        text-align: center;
+        margin: 0 0 10px;
+        width: 100%;
+        align-items: center;
+    }
+}

@@ -1,0 +1,159 @@
+
+/*===================== Live Css Changes ======================== */
+.school-profile .profile-body .bottom-profile .school-form .school-body .body-content .upload-mailn .form-group.upload-file-image #imagefile{
+    margin: auto;
+    border: 1px solid #2f99e7;
+    border-radius: 12px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: transparent;
+    position: relative;
+}
+.school-profile .profile-body .bottom-profile .school-form .school-body .body-content .upload-mailn .form-group.upload-file-image #imagefile #remove{
+    position: absolute;
+    right: 0;
+    font-size: 0;
+    padding: 5px;
+    margin: auto;
+    top: -5px;
+}
+.school-profile .profile-body .bottom-profile .school-form .school-body .body-content .upload-mailn .form-group.upload-file-image #imagefile #remove::after{
+    content: '';
+    position: absolute;
+    background: url(../images/upload-close.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    background-color: #2f99e7;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 30px;
+}
+.content .right-content .content-body .body-content .body-left .student-table .create-details .form-group .image-data-block .remove-img,
+.content .right-content .content-body .body-content .body-left .student-table .create-details .form-group .video-link-block .remove-video{
+    margin: auto;
+    position: relative;
+}
+.content .right-content .content-body .body-content .body-left .student-table .create-details .form-group .image-data-block .remove-img a,
+.content .right-content .content-body .body-content .body-left .student-table .create-details .form-group .video-link-block .remove-video a{
+    position: absolute;
+    right: -4px;
+    font-size: 0;
+    padding: 5px;
+    margin: auto;
+    top: -4px;
+    width: 15px;
+    height: 15px;
+}
+.content .right-content .content-body .body-content .body-left .student-table .create-details .form-group .image-data-block .remove-img a:after,
+.content .right-content .content-body .body-content .body-left .student-table .create-details .form-group .video-link-block .remove-video a::after{
+    content: '';
+    position: absolute;
+    background: url(../images/upload-close.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    background-color: #2f99e7;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 30px;
+}
+.content .right-content .content-body .body-content .modal#createProgram .modal-content.custom-modal-width {
+    width: 500px;
+}
+.content .right-content .content-body .body-content .body-left .student-table .create-details .form-group input.disable-input{
+    padding: 0 10px;
+    background: #efc2c2;
+}
+.content .right-content .content-body .body-content .modal-content.take-action-data {
+    width: 500px;
+}
+.content .right-content .content-body .body-content .modal-content.edit-take-action-data {
+    width: 500px;
+}
+.content .right-content .content-body .body-content .modal-content .modal-body .disabled-input {
+    padding: 0 10px !important;
+    background: #efc2c2;
+}
+.content .right-content .content-body .add-staff-member {
+    width: 500px !important;
+}
+.disabled-input {
+    padding: 0 10px !important;
+    background: #efc2c2;
+
+}
+
+.notification-form .location-width {
+        width: 100%;
+}
+.content .right-content .content-body .body-content .body-left .student-table .create-details .form-group .image-data-block .remove-img a.show,
+.content .right-content .content-body .body-content .body-left .student-table .create-details .form-group .video-link-block .remove-video a.show{
+    color: #2f99e7;
+    font-size: 14px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    font-weight: 500;
+    width: auto;
+    line-height: 16px;
+    right: -76px;
+    border: 1px solid #2f99e7;
+    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.content .right-content .content-body .body-content .body-left .student-table .create-details .form-group .image-data-block .remove-img a.show::after,
+.content .right-content .content-body .body-content .body-left .student-table .create-details .form-group .video-link-block .remove-video a.show::after{
+    display: none;
+}
+.student-table .create-details .form-group .image-choose-link .extension{
+  margin: 8px 0;
+}
+
+ .content .right-content .content-body .body-content .body-left .student-table .create-details .form-group .video-link-block  a.dynmic-show-link{
+    color: #2f99e7;
+    font-size: 14px;
+    margin: auto;
+    font-weight: 500;
+    width: auto;
+    line-height: 16px;
+    border: 1px solid #2f99e7;
+    padding: 2px 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-left: 10px;
+ }
+.daterangepicker{
+    font-family: "Poppins", sans-serif;
+}
+.alert-success , .success_message {
+    margin-top: 10px;
+}
+.add-package-program {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #2F99E7;
+    padding: 8px 40px;
+    border-radius: 12px;
+    box-shadow: 0px 3px 6px #a5d1f1;
+}
+.add-package-program:hover {
+ color: #fff !important;
+}

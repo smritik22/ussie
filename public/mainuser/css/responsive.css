@@ -1,0 +1,403 @@
+/* =================================
+SCREEN :: > 1400px
+====================================*/
+@media screen and (min-width:1400px){
+    .doc-slider .slick-prev,.doc-slider .slick-next{left: 370px;}
+}
+
+/* =================================
+SCREEN :: <= 1200px
+====================================*/
+@media screen and (max-width:1200px){
+    .banner-img:before{right: 0;}
+    .doc-slider .slick-next,.doc-slider .slick-prev{left: 370px;}
+    .container{max-width: 100%;}
+    .row{margin: 0;}
+    .footer-login{position: static;}
+    .login-page .site-content{height: auto;}
+    .header-dashboard .search-box{min-width: 350px;}
+    .dashboard-sidebar-box,.dashboard-middle-box,.twoEqual-col .first-col,.threeEqual-col .first-col{padding: 0 8px 0 0;}
+    .dashboard-page-content,.dashboard-last-box,.twoEqual-col .second-col,.threeEqual-col .third-col{padding: 0 0 0 8px;}
+    .threeEqual-col .second-col{padding: 0 8px 0;}
+    .graph-card,.dashboard .prescription,.doctors-appointment{margin-top: 16px;}
+    .dashboard-hospital .appointment-box{margin-top: 0;}
+    .user-profile,.medical-info,.lab-request,.prescription,.appointment-top,.appointment-bottom,.search-result-title,.search-result-list,.hospital-profile-top,.hospital-profile-bottom, .about-hospital,.departments,.reviews,.pharmacy-prescription,.user-account-detail,.accessibility-card,.cms-card,.contact-detail,.total-card,.graph-card,.doctors-appointment{padding: 12px;}
+    .edit-profile-card{padding: 15px 0;}
+    .additional-info span{margin: 0 30px;}
+    .appointment-box .white-card-title{padding: 12px 12px 0;}
+    .blue-box-list{max-height: 221px;}
+    .blue-box-list li,.green-box-list li{margin-bottom: 8px;}
+    .blue-box-list li a,.green-box-list li,.pharmacy-prescription .blue-box-list li a,.blue-box-list li > div{padding: 8px;}
+    .blue-box-list li:last-child{margin-bottom: 10px;}
+    .pagination-nav{margin-top: 10px;}
+}
+
+/* =================================
+SCREEN :: <= 991px
+====================================*/
+@media screen and (max-width:991px){
+    h1{font-size: 38px; line-height: 48px;}
+    h2{font-size: 28px; line-height: 38px;}
+    h3{font-size: 20px; line-height: 30px;}
+    p{font-size: 15px;}
+    .green-btn,.white-btn{min-width: auto;}
+    .site-logo{display: flex; align-items: center;}
+    h4.menuToggle{display: block; margin-bottom: 0; margin-right: 10px;}
+    .mobile-menu-col{position: static;}
+    .nav-menu {display: none; position: absolute; top: 100%; right: 0; width: 100%; box-shadow: 10px 0px 20px rgb(0 53 90 / 16%); background: #fff;}
+    .nav-menu ul {flex-direction: column; align-items: flex-start;}
+    .nav-menu ul li {width: 100%;}
+    .nav-link {padding: 10px 15px;border-bottom: 1px solid #dfdfdf;}
+    .search-icon-mb{display: block;}
+    .dropdownBox{width: 100%; padding: 10px;}
+    .search-box{display: none;}
+    .search-icon-mb .search-box{display: flex; width: auto; min-width: auto;}
+    .dropdownBox{position: absolute; top: 100%;right: 0; background: #fff;}
+    .doc-slider .slick-next, .doc-slider .slick-prev{left: 250px;}
+    .feature-box{padding: 20px;}
+    .feature-title{margin-bottom: 15px;}
+    .feature-title img{max-width: 60px;margin-right: 10px;}
+    .feature-title h3{font-size: 20px; line-height: 30px;}
+    .feature-box p{text-align: justify;}
+    .title-portion{padding-right: 15px;}
+    .doc-slider-item{padding: 8px 15px 0;}
+    .clinic-list .clinic-name{font-size: 20px; line-height: 30px;}
+    .social-link{margin-right: 12px;}
+    .membership-card{min-width: auto; max-width: 350px;}
+    .header-dashboard .search-icon-mb{margin-right: 15px;}
+    .dashboard, .dashboard-search, .dashboard-hospital-detail, .dashboard-medical-history, .dashboard-pharmacy, .dashboard-lab-module, .dashboard-account, .dashboard-cms,.dashboard-hospital,.dashboard-doctor,.dashboard-lab{padding: 40px 15px;}
+    .dashboard-inner, .dashboard-content-inner{flex-direction: column;}
+    .dashboard-sidebar-box,.dashboard-page-content,.dashboard-middle-box,.dashboard-last-box{width: 100%; padding: 0;}
+    .dashboard-last-box{padding-top: 16px;}
+    .dashboard-sidebar-box{display: none;}
+    .dashboard-sidebar .nav-link{border-bottom: 0;}
+    .header-dashboard .site-logo{padding-left: 35px;}
+    .sidebarIconToggle {
+        display: block;
+    }
+    .main {
+        margin: 0 auto;
+        display: block;
+        height: 100%;
+        margin-top: 60px;
+    }
+    .mainInner{
+        display: table;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .mainInner div{
+        display:table-cell;
+        vertical-align: middle;
+        font-size: 3em;
+        font-weight: bold;
+        letter-spacing: 1.25px;
+    }
+    #sidebarMenu {
+        height: 100%;
+        position: fixed;
+        left: 0;
+        width: 100%;
+        /* margin-top: -51px; */
+        /* transform: translateX(100%); */
+        transition: opacity 250ms ease-in-out;
+        background: #0000008c;
+        /* padding: 30px 0; */
+        z-index: 10;
+        top: 0;
+        overflow-y: auto;
+        display: none;
+        opacity: 0;
+    }
+    #sidebarMenu .dashboard-sidebar{
+        width: 250px;
+        background: #fff;
+        padding: 60px 0 30px;
+        overflow-y: auto;
+        height: 100%;
+        transform: translateX(-100%);
+        transition: transform 250ms ease-in-out;
+    }
+    input[type="checkbox"]:checked ~ label.sidebarIconToggle{
+        transform: translateX(235px);
+        background: #fff;
+        width: 32px;
+        height: 32px;
+        padding: 6px 5px 5px;
+        border-left: 0;
+    }
+    #sidebarMenu.someClass {
+        transform: translateX(0);
+        opacity: 1;
+        display: block;
+    }
+    #sidebarMenu.someClass .dashboard-sidebar{
+        transform: translateX(0);
+    }
+    
+    input[type=checkbox] {
+        transition: all 0.3s;
+        box-sizing: border-box;
+        display: none;
+    }
+    .sidebarIconToggle {
+        transition: all 0.3s;
+        box-sizing: border-box;
+        cursor: pointer;
+        position: fixed;
+        z-index: 11;
+        height: 100%;
+        width: 100%;
+        top: 30px;
+        left: 15px;
+        height: 24px;
+        width: 24px;
+        margin-bottom: 0;
+    }
+    .spinner {
+        transition: all 0.3s;
+        box-sizing: border-box;
+        position: absolute;
+        height: 3px;
+        /* width: 100%; */
+        background-color: #0C1E51;
+        /* border-radius: 100%; */
+    }
+    .horizontal {
+        transition: all 0.3s;
+        box-sizing: border-box;
+        position: relative;
+        float: left;
+        margin-top: 3px;
+        width: 80%;
+    }
+    .diagonal.part-1 {
+        position: relative;
+        transition: all 0.3s;
+        box-sizing: border-box;
+        float: left;
+        width: 100%;
+    }
+    .diagonal.part-2 {
+        transition: all 0.3s;
+        box-sizing: border-box;
+        position: relative;
+        float: left;
+        margin-top: 3px;
+        width: 60%;
+    }
+    input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
+        transition: all 0.3s;
+        box-sizing: border-box;
+        opacity: 0;
+    }
+    input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
+        transition: all 0.3s;
+        box-sizing: border-box;
+        transform: rotate(135deg);
+        margin-top: 8px;
+        border-radius: 100%;
+    }
+    input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
+        transition: all 0.3s;
+        box-sizing: border-box;
+        transform: rotate(-135deg);
+        margin-top: -9px;
+        border-radius: 100%;
+        width: 100%;
+    }
+    .nav-pills .nav-link{border-bottom: 0;}
+    .modal-dialog{max-width: 680px;}
+}
+
+/* =================================
+SCREEN :: <= 767px
+====================================*/
+@media screen and (max-width:767px){
+    .banner-inner{padding: 40px 0px 90px;}
+    .banner-img{margin-top: 30px;}
+    .banner-img img{margin: 0 auto;}
+    .banner-img:after{left: -10px;}
+    .img-second{order: 2;}
+    .about-home{padding: 0 0px;}
+    .blue-portion{min-height: 500px;}
+    .blue-portion:after{width: 436px; height: 436px;top: 32px;}
+    .title-portion{padding-bottom: 40px;min-height: 500px;}
+    .doc-slider-block{top: 40px;}
+    .doc-slider .slick-next, .doc-slider .slick-prev{left: 220px;}
+    .clinic-list{margin: 0;}
+    .clinics{padding: 40px 0px;}
+    .features-block{padding: 40px 0px 20px;}
+    .feature-box{margin-bottom: 20px;}
+    .newsletter{padding: 40px 0px;}
+    .newsletter-form{justify-content: flex-start; margin-top: 20px;}
+    .footer-home{padding: 40px 0px;}
+    .mb-struc{padding: 15px; border-bottom: 1px solid #dfdfdf;}
+    .mb-struc:first-child{padding-top: 0;}
+    .mb-struc:last-child{padding-bottom: 0; border-bottom: 0;}
+    .footer-logo{margin-bottom: 20px;}
+    input,textarea{ margin-bottom: 20px;}
+    .submit-btn-row{margin-top: 10px;}
+    .membership-card-row{flex-direction: column;}
+    .membership-card{margin: 0 0 20px;}
+    .additional-info span{margin: 0 25px;}
+    .db-green-btn,.sidebar-btn{padding: 10px 25px;}
+    .modal-dialog{max-width: 600px;}
+    .nav-pills .nav-link, .nav-pills .nav-link.active, .nav-pills .show>.nav-link{padding: 0 10px 15px;}
+    .testimonial{padding: 40px 0;}
+    .newsletter-form input{margin-bottom: 0;}
+    .clinic-list.less{height: 285px;}
+    .total-card-img{max-width: 50px;}
+    .profile-flex img{margin-right: 8px;}
+    .content-row .content4{width: 12%;}
+    .content-row .content5{width: 13%;}
+}
+
+/* =================================
+SCREEN :: <= 640px
+====================================*/
+@media screen and (max-width:640px){
+    h1{font-size: 34px; line-height: 44px;}
+    h2{font-size: 26px; line-height: 34px;}
+    h3{font-size: 18px; line-height: 26px;}
+    p{font-size: 14px;}
+    .doc-slider .slick-next, .doc-slider .slick-prev{left: 160px;}
+    .title-portion{padding-left: 15px;}
+    .title-portion::before{left: 35px;}
+    .clinic-list li{margin-bottom: 15px;}
+    .clinic-list .clinic-img{max-width: 40px; margin-right: 15px;}
+    .clinic-list .clinic-name{font-size: 18px; line-height: 26px;}
+    .menu-login{padding: 6px 26px; font-size: 16px;}
+    .lng-dropdown{margin-right: 15px;}
+    .header-right span:before{margin:0 15px;}
+    .green-btn,.white-btn{padding: 12px 30px;}
+    .newsletter-form .white-btn{line-height: 31px;}
+    .site-content{padding-top: 76px;}
+    .log-reg-card,.forget-pass-card{padding: 30px;}
+    .log-cat-box{padding: 0 5px;}
+    .log-cat{padding: 8px 15px;}
+    section.login{padding: 40px 0;}
+    .choose-log-cat label span{font-size: 14px;}
+    .twoEqual-col,.thirdForth-col,.threeEqual-col{flex-direction: column;}
+    .twoEqual-col .first-col,.twoEqual-col .second-col,.thirdForth-col .first-col,.thirdForth-col .second-col,.threeEqual-col .first-col,.threeEqual-col .second-col,.threeEqual-col .third-col{width: 100%; padding: 0;}
+    .twoEqual-col .first-col,.thirdForth-col .first-col,.threeEqual-col .first-col,.threeEqual-col .second-col{padding-bottom: 16px;}
+    .search-result-title .first-content,.search-result-list .blue-box-list .first-content{width: 46%;}
+    .search-result-title .middle-content,.search-result-list .blue-box-list .middle-content{width: 35%;}
+    .search-result-title .last-content,.search-result-list .blue-box-list .last-content{width: 20%;}
+    .profile-flex img{max-width: 30px; margin-right: 6px;}
+    .rating{margin-right: 0;}
+    .appointment{margin-right: 10px;}
+    .appointment a{font-size: 12px;}
+    .db-green-btn,.sidebar-btn{font-size: 12px; padding: 10px 20px;}
+    .user-account-detail{flex-direction: column;}
+    .user-account-detail>span{width: 100%;height: 1px; margin: 20px 0;}
+    .access-user-list .first-content{width: 43%;}
+    .access-user-list .middle-content{width: 33%;}
+    .access-user-list .last-content{width: 22%;}
+    .edit-access::after{width: 15px; height: 15px; margin-right: 5px; background-size: cover;}
+    .nav-pills .nav-link, .nav-pills .nav-link.active, .nav-pills .show>.nav-link{font-size: 14px; line-height: 20px; padding: 0 5px 15px;}
+    .testimonial .review-card-list > li{flex-direction: column;}
+    .review-card-detail{padding: 20px 0 0;}
+    .testimonial .review-card-list > li::before{left: 10px; top: 180px;}
+    .review-card-detail > p{text-align: justify;}
+    .clinic-list.less{height: 276px;}
+    .lab-request-list .lab-user-profile img{max-width: 30px; margin-right: 8px;}
+    .first-content p.hospital-name{font-size: 12px; line-height: 20px;}
+    .appointment-list,.appointment-title{display: none;}
+    .appointment-list-mb{display: block;}
+    .list-item-flex{display: flex; align-items: center; justify-content: space-between; width: 100%;}
+    .list-item-flex p{margin-bottom: 0;}
+    .list-item-flex > p:first-child{font-weight: 700;}
+    .appointment-list-mb .profile-flex{margin-bottom: 5px;}
+    p.going{color: #2cb9ca; font-weight: 700;}
+    p.cancel{color: #E73625; font-weight: 700;}
+    p.pending{color: #0C1E51; font-weight: 700;}
+}
+
+/* =================================
+SCREEN :: <= 480px
+====================================*/
+@media screen and (max-width:480px){
+    h1{font-size: 28px; line-height: 38px;}
+    h2{font-size: 22px; line-height: 32px;}
+    h3{font-size: 16px; line-height: 24px;}
+    p{font-size: 12px; line-height: 22px; text-align: justify;}
+    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, address, p, pre, blockquote, dl, dd, menu, table, caption, hr{margin: 0 0 15px 0;}
+    .header-right span:before{margin: 0 10px;}
+    .lng-dropdown{margin-right: 10px;}
+    .menu-login{display: none;}
+    .menu-login-mb{display: block;}
+    .dropbtn{font-size: 16px;}
+    .banner-inner p{margin-bottom: 15px;}
+    .green-btn, .white-btn{font-size: 14px; padding: 8px 20px;}
+    .banner-img:before{background-size: cover; width: 130px; height: 135px; top: -90px;}
+    .banner-img:after{background-size: cover; width: 80px; height: 60px; bottom: -12px;}
+    .banner-inner{padding: 25px 0px 80px;}
+    .doc-slider-item .doc-img{width: 262px; margin: 0 auto;}
+    .title-portion{width: 60%; min-height: 570px;}
+    .blue-portion{width: 40%; min-height: 570px;}
+    .title-portion::before{background-size: cover; width: 140px; height: 113px;}
+    .doc-slider .slick-prev{left: 60px; bottom: -100px;}
+    .doc-slider .slick-next{left: 60px; bottom: -135px;}
+    .clinic-list li{margin-bottom: 12px;}
+    .clinic-list .clinic-img{max-width: 35px; margin-right: 12px;}
+    .clinic-list .clinic-name{font-size: 14px; line-height: 24px;}
+    .newsletter-form{flex-direction: column; align-items: flex-start; }
+    .newsletter-form input{height: 50px;}
+    .newsletter-form .white-btn{margin-top: 20px; line-height: 20px;}
+    .site-content{padding-top: 61px;}
+    .clinics .green-btn {margin-top: 15px;}
+    .log-reg-card,.forget-pass-card{padding: 15px;}
+    .log-cat-box{padding: 0 3px;}
+    .log-cat{padding: 8px;}
+    .choose-log-cat label span{font-size: 12px; line-height: 16px;}
+    input,select{height: 45px;}
+    input, textarea,input::placeholder, textarea::placeholder{font-size: 14px; line-height: 22px;}
+    .copyright{flex-direction: column;}
+    p.copyright{margin-top: 10px;}
+    .bottom-tagline p{text-align: center;}
+    .submit-btn-row a{font-size: 12px;}
+    .checked img{max-width: 15px;}
+    .step-title p{font-size: 12px; max-width: 80px;}
+    .date-pick span, span.arrow-down{top: 10px;}
+    input[type="file"] ~ label{font-size: 12px; line-height: 18px; padding: 6px 12px;}
+    span.file-label{font-size: 12px; line-height: 18px;}
+    .step-round{width: 34px; height: 34px;}
+    .step-round p{font-size: 14px; line-height: 34px;}
+    .profile-step:after,.profile-step:before{top: 18px;}
+    .header-dashboard .search-icon-mb{margin-right: 8px;}
+    .upgrade-btn a{font-size: 10px; padding: 2px 6px; margin-right: 8px;}
+    .header-right span:before{margin:0 8px;}
+    .profile-dropdown .header-profile{max-width: 30px; margin-right: 5px;}
+    .premium-icon img{max-width: 15px;}
+    .premium-icon{top: -2px; left: 18px;}
+    .profile-dropdown .dropbtn{font-size: 0;}
+    .profile-dropdown .drop-arrow{margin-left: 0;}
+    .header-dashboard .site-logo a img{max-width: 35px;}
+    .sidebarIconToggle{top: 20px;}
+    .dashboard-content-title-right{flex-direction: column;}
+    .filter-box{margin-bottom: 10px;}
+    .filter-box:last-child{margin-bottom: 0;}
+    .search-result-title .first-content, .search-result-list .blue-box-list .first-content{width: 42%;}
+    .search-result-title .middle-content, .search-result-list .blue-box-list .middle-content{width: 33%;}
+    .search-result-title .last-content, .search-result-list .blue-box-list .last-content{width: 18%;}
+    .db-green-btn{padding: 8px 12px;}
+    .other-account-detail{flex-direction: column;}
+    .account-detail-left .info-box:last-child,.other-account-detail .info-box{margin-bottom: 15px;}
+    .blue-box-list li > div{flex-wrap: wrap;}
+    .access-user-list .first-content{width: 50%;}
+    .access-user-list .middle-content{width: 100%; order: 3;padding-top: 5px;}
+    .access-user-list .last-content{width: 50%; order: 2;}
+    .modal-body{padding: 10px;}
+    .record-accessibility-header h3{margin-bottom: 15px;}
+    .record-accessibility-header{text-align: left;}
+    .record-accessibility-header .close{top: -6px;}
+    #record-accessibility .nav.nav-pills{flex-direction: column;}
+    .nav-pills .nav-link, .nav-pills .nav-link.active, .nav-pills .show>.nav-link{padding: 5px;}
+    .clinic-list.less{height: 188px;}
+    .lab-request-list .first-content h6{font-size: 12px;line-height: 18px;}
+    .lab-request-list .first-content p.hospital-name{font-size: 11px; line-height: 18px;}
+    .lab-request-list .middle-content h6{max-width: 60px; font-size: 12px; line-height: 18px;}
+    .lab-request-list p.time{font-size: 11px; line-height: 18px;}
+}

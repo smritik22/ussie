@@ -1,0 +1,443 @@
+.arabic .owl-stage-outer{
+    position:relative;
+    overflow:hidden;
+    -webkit-transform:translate3d(0,0,0);
+    direction: ltr;
+}
+.arabic img.three-line-icon {
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.arabic .profile {
+    margin-left: 0px;
+    margin-right: 30px;
+}
+.arabic .lang .dropdown-toggle::after {
+    margin-left: 0px;
+    margin-right: 8px;
+}
+.arabic .search-bar button {
+    margin-left: 0px;
+    margin-right: 40px;
+}
+.arabic .property-type {
+    padding: 0 30px 0 20px;
+    margin-right: 0px;
+    margin-left: 20px;
+}
+.arabic .search-bar select {
+    background-position: left center !important;
+}
+.arabic .search-bar input {
+    width: 100%;
+    display: block;
+    padding: 0 0px 0 30px;
+    border: 0;
+}
+.arabic .owl-nav {
+    text-align: left;
+}
+.arabic .banner button.owl-prev span {
+    margin-right: 0px;
+    margin-left: 20px;
+    transform: rotate(180deg) !important;
+}
+.arabic .banner button.owl-next span {
+    transform: rotate(180deg) !important;
+}
+.arabic .featured-properties-box-content p img {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+.arabic .featured-properties-icon img {
+    margin-right: 0px;
+    margin-left: 12px;
+}
+.arabic .featured-properties-icon span {
+    margin-right: 0px;
+    margin-left: 19px;
+}
+.arabic .badge {
+    left: auto;
+    right: 24px;
+}
+.arabic .heart-icon-box {
+    top: 25px;
+    right: auto;
+    left: 24px;
+}
+.arabic .app-store-btn {
+    margin-left: 0px;
+    margin-right: 16px;
+}
+.arabic .download-btn a svg {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+.arabic .footer-box h4 {
+    text-align: right;
+}
+.arabic .footer-contact img {
+    margin-right: 0px;
+    margin-left: 14px;
+}
+.arabic .social-icn a {
+    margin-right: 0px;
+    margin-left: 16px;
+}
+.arabic span.toggle-mobile-menu.d-md-none.d-block.me-3 {
+    margin-left: 15px;
+    margin-right: 0 !important;
+}
+.arabic .profile .dropdown-menu {
+    right: auto !important;
+    left: 0 !important;
+}
+.arabic .profile .dropdown-menu:after {
+    right: auto;
+    left: 22px;
+}
+.arabic .lang .dropdown-menu {
+    right: auto !important;
+    left: 0 !important;
+}
+.arabic .breadcrumb-item+.breadcrumb-item {
+    padding-left: 0px;
+    padding-right: 12px;
+}
+.arabic li.breadcrumb-item img {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+.arabic li.breadcrumb-item img {
+    margin-right: 0px;
+    margin-left: 10px;
+    transform: rotate(180deg);
+}
+.arabic .list-view-map {
+    margin-left: 0px;
+    margin-right: 16px;
+}
+.arabic .featured-properties-sorting-box select {
+    background-position: left center !important;
+    margin-right: 0;
+    margin-left: 24px;
+}
+.arabic .featured-properties-sorting-box label {
+    margin-right: 0px;
+    margin-left: 6px;
+}
+.arabic .accordion-button::after {
+    margin-left: 0;
+    margin-right: auto;
+}
+.arabic label.form-check-label {
+    padding-left: 0px;
+    padding-right: 15px;
+}
+.arabic .form-check .form-check-input {
+    margin-left: 0;
+}
+.arabic li.paginatiob-left {
+    margin-right: 00px;
+    margin-left: 20px;
+}
+.arabic li.paginatiob-left img {
+    transform: rotate(180deg);
+}
+.arabic li.paginatiob-left img {
+    margin-right: -2px;
+    margin-left: 0px;
+}
+.arabic li.paginatiob-right img {
+    transform: rotate(0deg);
+}
+.arabic li.paginatiob-right img {
+    margin-left: -2px;
+    margin-right: 0px;
+}
+.arabic li.paginatiob-right {
+    margin-left: 0px; 
+    margin-right: 20px; 
+}
+.arabic .featured-properties-icon span:last-child {
+    margin: 0;
+}
+.arabic .featured-properties-list .featured-properties-icon span:last-child {
+    margin: 0;
+}
+.arabic .property-detail-top-left p {
+    margin: 0 12px 0 0px;
+    padding-left: 0px;
+    padding-right: 12px;
+}
+.arabic .property-detail-top-left p:after {
+    left: auto;
+    right: 0;
+}
+.arabic .property-detail-left ul img {
+    margin-right: 0px;
+    margin-left: 14px;
+}
+.arabic .property-detail-left ul li {
+    margin-right: 0px;
+    margin-left: 45px;
+}
+.arabic .property-detail-left h5 img {
+    margin-right: 0px;
+    margin-left: 15px;
+}
+.arabic .property-detail-top-right .roperty-detail-icon {
+    margin-left: 0px;
+    margin-right: 20px;
+}
+.arabic .inqurie-agent a svg {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+.arabic .property-detail-left h4 {
+    text-align: right;
+}
+.arabic .amenities-box ul li {
+    margin-right: 0px;
+    margin-left: 20px;
+}
+.arabic section.property-address h4 {
+    text-align: right;
+}
+.arabic .property-address-left p img {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+.arabic .about h4 {
+    text-align: right;
+}
+.arabic .account-left .nav-pills .nav-link {
+    text-align: right;
+}
+.arabic .account-left .nav-pills .nav-link svg {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+.arabic span.number-code {
+    left: auto;
+    right: 0;
+    border-right: 0px solid #E4E9F9;
+    border-left: 1px solid #E4E9F9;
+}
+.arabic .account-popup .model-close {
+    right: auto;
+    left: 12px;
+    top: 12px;
+}
+.arabic .mobile-number-code input {
+    padding-left: 16px;
+    padding-right: 78px;
+}
+.arabic .detail-profile-box {
+    margin-left: 0px;
+    margin-right: 16px;
+}
+.arabic .detail-profile h4 {
+    text-align: right;
+}
+.arabic .toggle-password {
+    right: auto;
+    left: 16px;
+}
+.arabic span.edit-icon {
+    right:auto;
+    left: 0;
+}
+.arabic .inqurie-agent-icon {
+    right: auto;
+    left: 0;
+}
+.arabic .inqurie-agent-img {
+    margin-right: 0px;
+    margin-left: 20px;
+}
+.arabic .inqurie-agent-detail img {
+    margin-left: 0.5rem;
+    margin-right: 0 !important;
+}
+.arabic .agent-about h5 {
+    text-align: right;
+}
+.arabic .agent-detail-user .inqurie-agent h4 {
+    text-align: right !important;
+}
+.arabic .loin-outer {
+    width: 100%;
+    overflow: hidden;
+}
+.arabic .contact-detail-box-img img {
+    margin-right: 0px;
+    margin-left: 20px;
+}
+.arabic .contact-form-detail h5, .arabic .contact-form h5 {
+    text-align: right;
+}
+.arabic .skip-back {
+    left: auto;
+    right: 40px;
+    transform: rotate(180deg);
+}
+.arabic a.comman-btn.edit-btn {
+    margin-right: 20px;
+    margin-left: 0px;
+}
+.arabic .agent-type-name {
+    margin-left: 0px;
+    margin-right: 15px;
+}
+.arabic .add-property-field-select:after {
+    right: auto;
+    left: 16px;
+}
+/* .arabic .lang {
+    padding-right: 30px;
+    padding-left: 0px;
+} */
+.arabic .lang {
+    padding-right: 30px;
+    padding-left: 0px;
+    margin-right: 30px;
+}
+.arabic .lang:after {
+    left: auto;
+    right: 0;
+    transform: translatey(-50%);
+}
+.arabic .subscription-plan-detail {
+    margin-left: 0px;
+    margin-right: 20px;
+}
+.arabic .subscription-details-box span {
+    margin-right: 10px;
+    margin-left: 0px;
+}
+.arabic .select-plan-img {
+    right: auto;
+    left: 0;
+}
+.arabic .skip {
+    right: auto;
+    left: 40px;
+}
+.arabic .message-user-name {
+    margin-left: 0px;
+    margin-right: 16px;
+}
+.arabic .message-left {
+    border-radius: 0px 10px 10px 0px;
+}
+.arabic .messege-box-send {
+    margin-left: 0;
+    margin-right: auto;
+}
+.arabic .my-ads-icon-box {
+    right: auto;
+    left: 15px;
+}
+.arabic .forget-password-outer {
+    text-align: right !important;
+}
+
+@media (max-width: 1400px){
+    .arabic .featured-properties-list .featured-properties-icon span {
+        margin-right: 0;
+        margin-left: 14px;
+    }
+    .arabic .featured-properties-list .featured-properties-icon img {
+        margin-right: 0px;
+        margin-left: 6px;
+    }
+}
+
+@media (max-width: 991px){
+    .arabic .featured-properties-icon img {
+        margin-right: 0px;
+        margin-left: 6px;
+    }
+    .arabic .featured-properties-icon span {
+        margin-right: 0px;
+        margin-left: 15px;
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .arabic .add-property-field .form-check.form-check-inline label {
+        padding: 16px 20px 14px;
+    }
+    
+}
+@media(max-width: 767px){
+    .arabic .property-type {
+        padding: 0 15px 0 20px;
+        margin-right: 15px;
+    }
+    .arabic .featured-properties-sorting-box select {
+        margin-right: 0px;
+        margin-left: 14px;
+    }
+    .arabic .list-view-map {
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+    li.pagination-item a {
+        font-size: 14px;
+        line-height: 19px;
+        margin: 0 6px;
+    }
+    .featured-properties-list {
+        padding: 30px 0 30px;
+    }
+    .pagination-box {
+        margin-top: 10px;
+    }
+    .arabic .subscription-plan-detail {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 576px){
+    .arabic .property-type {
+        padding: 15px 0;
+        margin: 15px 0;
+    }
+    .arabic .search-bar button {
+        margin-right: 0px;
+    }
+    .arabic .search-bar button span {
+        margin-left: 0;
+        margin-right: 1rem !important;
+    }
+    .arabic .app-store-btn {
+        margin-left: 0px;
+        margin-right: 8px;
+    }
+    .arabic .download-btn a svg {
+        margin-right: 0px;
+        margin-left: 5px;
+    }
+    .arabic li.paginatiob-left {
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+    .arabic li.paginatiob-right {
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+    .arabic .property-detail-top-left p {
+        margin: 0 8px 0 0px;
+        padding-left: 0px;
+        padding-right: 8px;
+    }
+    .arabic .agent-type-name {
+        margin-right: 5px;
+    }
+    .arabic .add-property-field .form-check.form-check-inline label {
+        padding: 16px 19px 14px;
+    }
+    
+}

@@ -1,0 +1,8 @@
+
+
+/* ===== max-width: 640px ======= */
+@media only screen and (max-width: 640px){
+    .school-profile .profile-body .bottom-profile .school-form .school-body .body-content .upload-mailn .form-group.upload-file-image #imagefile {
+        width: 45%;
+    }
+}
